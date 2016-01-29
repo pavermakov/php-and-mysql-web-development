@@ -1,0 +1,145 @@
+html{
+	font-size: 62.5%;
+}
+
+#container{
+	width: 720px;
+	margin: 0 auto;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	border-right: 7px solid #4C0263;
+}
+
+#page-header{
+	padding: 3.4rem 1.2rem 1rem 41rem;
+	line-height: 2.6rem;
+	background: url("../img/logo.jpg") no-repeat top left;
+	background-size: 390px;
+	color: #4C0263;
+	font-size: 1.9rem;
+}
+
+
+#article-header{
+	padding-top: 1rem;
+	padding-left: 4rem;
+	padding-bottom: 2.3rem;
+}
+	#article-header h1{
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 5.2rem;
+		letter-spacing: 0.2rem;
+	}
+	#article-header h3{
+		display: inline;
+		margin-left: 3rem;
+		font-size: 1.9rem;
+	}
+	#article-header #reg{
+		font-size: 0.8rem;
+	}
+	#article-header #smaller-text{
+		font-size: 3.2rem;
+	}
+	#article-header #web-dev{
+		display: inline;
+		font-size: 3.8rem;
+		letter-spacing: 0.2rem;
+	}
+
+section{
+	padding-right: 3rem;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	color: #4C0263;
+}
+	section .specs{
+		margin: 0 0 0.5rem 1.5rem;
+		color: black;
+	}
+	section blockquote{
+		text-align: center;
+		padding-top: 1rem;
+		font-style: italic;
+	}
+
+	section .journals{
+		text-align: center;
+		font-weight: bold;
+	}
+	section #description{
+		padding: 0.6rem 1rem;
+		margin-top: 1rem;
+		margin-left: 1.5rem;
+		background-color: rgba(191, 191, 191, 0.47);
+		color: black;
+	}
+	section .strong{
+		color: #4C0263;
+	}
+	section #register{
+		padding: 1rem 4rem 0.5rem 0rem;
+		line-height: 1.5rem;
+		border-bottom: 1px solid #4C0263;
+	}
+
+#page-footer{
+	padding: 0.7rem 3rem 12rem 0;
+	background: url("../img/barcode.bmp") no-repeat 446px 40px;
+	background-size: 250px;
+}
+
+#page-footer #topic{
+	display: inline;
+	font-size: 1.4rem;
+	color: #4C0263;
+}
+
+#page-footer #topic+span{
+	float: right;
+	color: #4C0263;
+}
+
+#page-footer #include{
+	width: 45%;
+	margin-top: 1.5rem;
+	padding: 0.3rem;
+	font-size: 1.25rem;
+	border: 1px solid #4C0263;
+}
+
+#page-footer #include .strong{
+	color: #4C0263;
+}
+
+#page-footer #pearson{
+	float: left;
+	padding-top: 3.5rem;
+	margin-top: 2.3rem;
+	font-size: 1.3rem;
+	background: url("../img/addison-wesley.gif") no-repeat top left;
+	background-size: 90px;
+}
+
+
+#page-footer #developers-library{
+	float: left;
+	padding-top: 2.5rem;
+	margin-left: 3.5rem;
+}
+#page-footer #developers-library .strong{
+	font-size: 1.4rem;
+}
+
+#page-footer .website{
+	font-size: 1.2rem;
+	margin-top: 4px;
+}
+
+
+.italic{
+	font-style: italic;
+}
+
+.strong{
+	font-weight: bold;
+}
